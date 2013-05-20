@@ -1,24 +1,20 @@
 {
-    tokens = [
-        PL = '('
-        PR = ')'
-        ABL = '<'
-        ABR = '>'
-        DEL = '^^'
-        HEX = 'regexp=[0-9] | [A-F] | [a-f]'
-        PN_CHARS_BASE = 'regexp:[A-Z] | [a-z] | [#x00C0-#x00D6] | [#x00D8-#x00F6] | [#x00F8-#x02FF] | [#x0370-#x037D] | [#x037F-#x1FFF] | [#x200C-#x200D] | [#x2070-#x218F] | [#x2C00-#x2FEF] | [#x3001-#xD7FF] | [#xF900-#xFDCF] | [#xFDF0-#xFFFD] | [#x10000-#xEFFFF]'
-        PN_CHARS = 'regexp:PN_CHARS_U | "-" | [0-9] | #x00B7 | [#x0300-#x036F] | [#x203F-#x2040]'
-        IRIREF_P1 = 'regexp:[^#x00-#x20<>\"{}|^`\]'
-    ]
+   tokens = [
+    PNAME_NS = 'regexp:\p{Alpha}*\:'
+    IRIREF = 'regexp:\<\p{Alpha}*\>'
+    INTEGER = 'regexp:\d+'
+    DECIMAL = 'regexp:\d+(\.\d*)?'
+    DOUBLE = 'regexp:\d+(\.\d*)?'
+   ]
 }
 
 turtleDoc	::=	statement*
 statement	::=	directive | triples '.'
 directive	::=	prefixID | base | sparqlPrefix | sparqlBase
-prefixID	::=	'@prefix' PNAME_NS IRIREF '.'
-base	::=	'@base' IRIREF '.'
-sparqlBase	::=	"BASE" IRIREF
-sparqlPrefix	::=	"PREFIX" PNAME_NS IRIREF
+prefixID	::=	'@prefix' PNAME_NS IRIREF '.' {pin=1}
+base	::=	'@base' IRIREF '.' {pin=1}
+sparqlBase	::=	"BASE" IRIREF {pin=1}
+sparqlPrefix	::=	"PREFIX" PNAME_NS IRIREF {pin=1}
 triples	::=	subject predicateObjectList | blankNodePropertyList predicateObjectList?
 predicateObjectList	::=	verb objectList (';' (verb objectList)?)*
 objectList	::=	object (',' object)*
@@ -36,6 +32,3 @@ String	::=	STRING_LITERAL_QUOTE | STRING_LITERAL_SINGLE_QUOTE | STRING_LITERAL_L
 iri	::=	IRIREF | PrefixedName
 PrefixedName	::=	PNAME_LN | PNAME_NS
 BlankNode	::=	BLANK_NODE_LABEL | ANON
-IRIREF ::= '<' (IRIREF_P1  | UCHAR)* '>' {pin=1}
-UCHAR ::= '\u' HEX HEX HEX HEX | '\U' HEX HEX HEX HEX HEX HEX HEX HEX
-PN_CHARS_U ::= PN_CHARS_BASE | '_'
