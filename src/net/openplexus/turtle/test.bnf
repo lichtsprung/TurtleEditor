@@ -1,0 +1,16 @@
+{
+    tokens = [
+        numbers = 'regexp:[0-9]*'
+        PL = '('
+        PR = ')'
+        ABL = '<'
+        ABR = '>'
+        DEL = '^^'
+        HEX = 'regexp:[0-9] | [A-F] | [a-f]'
+        uni = "\u"
+        UNI = "\U"
+    ]
+}
+
+root ::= paren_expr*
+paren_expr ::= '\u'

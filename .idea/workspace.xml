@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5de3ceb-8b24-435d-98b1-943cc9d1c982" name="Default" comment="" />
+    <list default="true" id="e5de3ceb-8b24-435d-98b1-943cc9d1c982" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/openplexus/turtle/test.bnf" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/TurtleParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleBlankNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleBlankNodePropertyList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleBooleanLiteral.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleCollection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleDirective.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleElementType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleIri.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleLiteral.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleNumericLiteral.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleObjectList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtlePredicate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtlePredicateObjectList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtlePrefixID.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtlePrefixedName.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleRDFLiteral.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleSparqlBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleSparqlPrefix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleStatement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleSubject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleTriples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleVerb.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/TurtleVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleBaseImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleBlankNodeImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleBlankNodePropertyListImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleBooleanLiteralImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleCollectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleDirectiveImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleIriImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleLiteralImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleNumericLiteralImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleObjectImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleObjectListImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtlePredicateImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtlePredicateObjectListImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtlePrefixIDImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtlePrefixedNameImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleRDFLiteralImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleSparqlBaseImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleSparqlPrefixImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleStatementImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleStringImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleSubjectImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleTriplesImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleVerbImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/openplexus/turtle/psi/TurtleElementType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/openplexus/turtle/psi/TurtleTokenType.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/openplexus/turtle/icons/turtle.png" afterPath="$PROJECT_DIR$/src/net/openplexus/turtle/icons/turtle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/openplexus/turtle/turtle.bnf" afterPath="$PROJECT_DIR$/src/net/openplexus/turtle/turtle.bnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TurtleEditor.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TurtleLanguage.java" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368996149245" ignored="false" />
@@ -9,12 +65,15 @@
     <file path="/TurtleFileType.java" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368996254291" ignored="false" />
     <file path="/TurtleFileTypeFactory.java" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368996376251" ignored="false" />
     <file path="/plugin.xml" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368996716401" ignored="false" />
-    <file path="/turtle.bnf" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369046695913" ignored="false" />
+    <file path="/turtle.bnf" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369062402706" ignored="false" />
     <file path="/turtle.flex" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368998433250" ignored="false" />
     <file path="/TurtleTokenType.java" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368999588320" ignored="false" />
     <file path="/TurtleElementType.java" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1368999698010" ignored="false" />
-    <file path="/turtle.bnf.preview" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369046641273" ignored="false" />
-    <file path="/Dummy.txt" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369046827305" ignored="false" />
+    <file path="/Dummy.txt" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369057008495" ignored="false" />
+    <file path="/fragment.java" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369057358956" ignored="false" />
+    <file path="/turtle.bnf.preview" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369058437978" ignored="false" />
+    <file path="/test.bnf" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369062264237" ignored="false" />
+    <file path="/test.bnf.preview" changelist="e5de3ceb-8b24-435d-98b1-943cc9d1c982" time="1369062240548" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,71 +133,81 @@
     <favorites_list name="TurtleEditor" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TurtleFileType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/TurtleFileType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurtleFileTypeFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/TurtleFileTypeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="turtle.bnf" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/turtle.bnf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="190" selection-end="190" vertical-scroll-proportion="0.16744186">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurtleTokenType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/psi/TurtleTokenType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurtleElementType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/psi/TurtleElementType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratedParserUtilBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/GeneratedParserUtilBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="TurtleFileType.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/TurtleFileType.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TurtleFileTypeFactory.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/TurtleFileTypeFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="28" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="48" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="turtle.bnf" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/turtle.bnf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="69" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.6885645">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test.bnf" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/test.bnf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="16" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GeneratedParserUtilBase.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/GeneratedParserUtilBase.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="test.bnf.preview" pinned="false" current="false" current-in-tab="true">
+            <entry file="mock:///test.bnf.preview">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -166,7 +235,11 @@
         <option value="$PROJECT_DIR$/src/net/openplexus/turtle/GeneratedParserUtilBase.java" />
         <option value="$PROJECT_DIR$/src/net/openplexus/turtle/TurtleTokenType.java" />
         <option value="$PROJECT_DIR$/src/net/openplexus/turtle/TurtleElementType.java" />
+        <option value="$PROJECT_DIR$/gen/Turtle.flex" />
+        <option value="$PROJECT_DIR$/gen/_Turtle.java" />
         <option value="/turtle.bnf.preview" />
+        <option value="/test.bnf.preview" />
+        <option value="$PROJECT_DIR$/src/net/openplexus/turtle/test.bnf" />
         <option value="$PROJECT_DIR$/src/net/openplexus/turtle/turtle.bnf" />
       </list>
     </option>
@@ -174,8 +247,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1602" />
-    <option name="height" value="874" />
+    <option name="width" value="1922" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -205,6 +278,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,80 +333,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openplexus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="turtle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="psi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TurtleEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TurtleEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TurtleEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TurtleEditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="org.intellij.lang.jflex.options.JFlexConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gen" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -343,6 +369,9 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="net.openplexus.turtle" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/net/openplexus/turtle/icons" />
     </key>
@@ -360,19 +389,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -401,6 +417,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -472,34 +501,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1602" height="874" extended-state="7" />
-    <editor active="false" />
+    <frame x="-1" y="27" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24902976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24866596" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1920" y="5" width="776" height="666" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -568,6 +597,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/GeneratedParserUtilBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/icons/TurtleIcons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="94" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" />
@@ -606,20 +644,6 @@
         <state line="10" column="94" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/net/openplexus/turtle/psi/impl/TurtleBaseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/net/openplexus/turtle/TurtleParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.432558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/TurtleFileType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
@@ -641,30 +665,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/psi/TurtleTokenType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/psi/TurtleElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/GeneratedParserUtilBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/test.bnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/openplexus/turtle/turtle.bnf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="190" selection-end="190" vertical-scroll-proportion="0.16744186">
+        <state line="39" column="69" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.6885645">
           <folding />
         </state>
       </provider>
@@ -709,7 +728,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>IDEA IC-130.SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -726,7 +745,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
